@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Appalachian-style mountain ridge with a lone hiker</title>
+  <desc id="desc">A quiet sunrise over layered mountain ridges with a small backpacker walking along the foreground trail.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8c3a1"/>
+      <stop offset="0.42" stop-color="#a8b3a3"/>
+      <stop offset="1" stop-color="#536d60"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="72%" cy="18%" r="25%">
+      <stop offset="0" stop-color="#f4d89b" stop-opacity="0.95"/>
+      <stop offset="0.45" stop-color="#d9b46c" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#d9b46c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="trail" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6a695d"/>
+      <stop offset="1" stop-color="#3c473f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <rect width="1600" height="1000" fill="url(#sun)"/>
+  <path d="M0 580 L170 470 L330 545 L520 420 L700 535 L900 390 L1100 505 L1320 410 L1600 540 L1600 1000 L0 1000Z" fill="#6e8376" opacity="0.72"/>
+  <path d="M0 650 L200 560 L390 625 L610 500 L820 625 L1030 520 L1220 640 L1420 535 L1600 620 L1600 1000 L0 1000Z" fill="#456357" opacity="0.88"/>
+  <path d="M0 745 L160 650 L330 710 L520 620 L720 730 L920 610 L1110 720 L1310 625 L1600 760 L1600 1000 L0 1000Z" fill="#24483c"/>
+  <path d="M0 830 C260 760 390 800 560 760 C760 710 870 790 1040 745 C1230 695 1400 745 1600 700 L1600 1000 L0 1000Z" fill="#18332c"/>
+  <path d="M600 1000 C720 900 830 835 960 790 C1090 745 1210 730 1400 720 L1600 745 L1600 1000Z" fill="url(#trail)" opacity="0.92"/>
+  <g transform="translate(1220 690)" fill="#17251f" stroke="#17251f" stroke-linecap="round">
+    <circle cx="0" cy="-42" r="13"/>
+    <rect x="-10" y="-28" width="20" height="48" rx="7"/>
+    <rect x="-20" y="-24" width="15" height="36" rx="6" opacity="0.95"/>
+    <path d="M-4 17 L-12 62" stroke-width="8"/>
+    <path d="M6 17 L17 60" stroke-width="8"/>
+    <path d="M9 -12 L35 16" stroke-width="6"/>
+    <path d="M34 13 L44 75" stroke-width="3"/>
+  </g>
+  <path d="M70 925 C190 850 330 825 475 835" fill="none" stroke="#d7d3bd" stroke-width="3" stroke-opacity="0.28"/>
+</svg>
