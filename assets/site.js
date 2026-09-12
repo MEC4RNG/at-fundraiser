@@ -21,8 +21,16 @@
     if(el.tagName === "A") el.href = "mailto:" + (cfg.contactEmail || "goingthedistancecampaign@gmail.com");
   });
 
+  // The site is publicly accessible during development, but fundraising is not yet live.
+  const prelaunchNotice = "Pre-launch campaign website. Final CRI branding, charitable match mechanics, payment implementation, partnership terms, privacy language, and public disclosures remain subject to confirmation before formal campaign launch.";
+  document.querySelectorAll('.site-footer .legal').forEach(el=>el.textContent = prelaunchNotice);
+
   const modalBg = document.querySelector('[data-modal]');
   const modalClose = document.querySelector('[data-modal-close]');
+  if(modalBg){
+    const strong = modalBg.querySelector('strong');
+    if(strong) strong.textContent = "No charitable transaction is being collected through this pre-launch website.";
+  }
   function openModal(){
     if(!modalBg) return;
     modalBg.classList.add('open');
